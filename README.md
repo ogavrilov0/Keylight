@@ -6,4 +6,5 @@ You can find this by running "brightnessctl -l" in terminal.
 
 Dependencies-
 1. brightnessctl
-  sudo dnf install brightnessctl
+
+    sudo dnf install brightnessctl
