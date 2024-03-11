@@ -1,8 +1,8 @@
 [Unit]
-Description=Run keyboard backlight adjustment script every 1 second
+Description=Run keyboard backlight adjustment script every 10 seconds
 
 [Timer]
-OnUnitActiveSec=1s
+OnUnitActiveSec=10s
 Unit=keyboard_backlight.service
 
 [Install]
