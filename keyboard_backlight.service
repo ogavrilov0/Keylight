@@ -1,0 +1,10 @@
+[Unit]
+Description=Control Keyboard Backlight Based on Power
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/keylight/keyboard_backlight.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,18 @@
+I have a ASUS - ROG Zephyrus G16 16" 165Hz Gaming Laptop FHD-Intel 13th Gen Core i7 with 16GB Memory-NVIDIA GeForce RTX 4060-512GB SSD - Eclipse Gray. 
+
+I had this problem with my old laptop that my charging port would be visibly plugged in, but it would only sometimes charge. So, as a result, I used the onboard Razer software to change the keyboard brightness whether it was plugged in or on battery. 
+
+Now with this laptop, when I installed fedora, my keyboard backlight didn't work. After trying different things, brightnessctl finally turned my keyboard light on, and I was able to control the brightness on the keyboard, but I wanted to do the same thing with this laptop as I did with my previous laptop. 
+
+
+
+Just note: this script will run a systemd service on a timer to update your keyboard backlight brightness based on whether the laptop is plugged in or on battery power. 
+
+You will NOT be able to changed the keyboard brightness, as it will auto update to your power status.
+If you want to have your own brightness, you will need to turn the systemd service off.
+
+To do this:
+systemctl stop keyboard_backlight.service
+
+This script is extremely simple and elementary, not to mention it's my first.
+Thanks for reading. 
