@@ -1,5 +1,11 @@
 I have a ASUS - ROG Zephyrus G16 16" 165Hz Gaming Laptop FHD-Intel 13th Gen Core i7 with 16GB Memory-NVIDIA GeForce RTX 4060-512GB SSD - Eclipse Gray. 
 
+To install:
+sudo ./install.sh
+
+To start service:
+systemctl start keyboard_backlight.service
+
 I had this problem with my old laptop that my charging port would be visibly plugged in, but it would only sometimes charge. So, as a result, I used the onboard Razer software to change the keyboard brightness whether it was plugged in or on battery. 
 
 Now with this laptop, when I installed fedora, my keyboard backlight didn't work. After trying different things, brightnessctl finally turned my keyboard light on, and I was able to control the brightness on the keyboard, but I wanted to do the same thing with this laptop as I did with my previous laptop. 
